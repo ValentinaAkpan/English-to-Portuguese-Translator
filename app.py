@@ -52,7 +52,7 @@ if uploaded_file:
     translated_result = "\n".join(translated_lines)
 
     st.download_button(
-        label="📥 Download Translated Subtitles",
+        label="Download Translated Subtitles",
         data=translated_result,
         file_name="translated_subtitles_pt.txt",
         mime="text/plain"
